@@ -7,7 +7,7 @@ let glyphStates = {
   "♥": "♡"
 };
 
-// Your JavaScript code goes here!
+
 
 let colorStates = {
   "red" : "",
@@ -37,6 +37,20 @@ for (let glyph of articleHearts) {
   glyph.addEventListener("click", likeCallback);
 }
 
+
+// Your JavaScript code goes here!
+
+
+const element = document.getElementById("modal");
+element.remove();
+
+
+
+
+// let modal = document.querySelector('#modal').style.visibility='hidden';
+// modal != null
+
+//document.getElementById('modal-message').style.visibility='hidden';
 
 
 
